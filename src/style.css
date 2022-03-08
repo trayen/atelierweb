@@ -1,0 +1,63 @@
+
+.container{
+    margin: 50px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10px 10px;
+    border: 1px solid  black;
+    background-image: linear-gradient( 135deg, #97ABFF 10%, #123597 100%);
+}
+body{
+  background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+  background-repeat: no-repeat;
+  height: 609px;
+}
+
+
+/* CSS */
+button {
+  background-image: linear-gradient( 135deg, #FF7AF5 10%, #513162 100%);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  width: 80px;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+button:hover {
+ 
+  
+  transform: scale(1.5);
+}
+
+button:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006ebc75;
+  outline: none;
+}
+
+button:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
